@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ingrid Gonzales - Asesora Comercial</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="card">
+    <header class="header">
+      <div class="logo-container">
+        <img src= "../resources/logo_TLM.png" alt="Logo de la empresa">
+      </div>
+      <h1>Ingrid Gonzales</h1>
+      <p>Asesora Comercial</p>
+    </header>
+
+    <section class="contact-section">
+      <button onclick="window.open('https://wa.me/+573183638689')" class="btn whatsapp">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </button>
+      <button onclick="window.location.href='tel:+573183638689'" class="btn phone">
+        <i class="fas fa-phone"></i> Llamar
+      </button>
+      <button onclick="window.location.href='mailto:comercial@tlmandina.com.co'" class="btn email">
+        <i class="fas fa-envelope"></i> Correo
+      </button>
+      <a href="../resources/ingrid.vcf" download class="btn download">
+        <i class="fas fa-download"></i> Descargar contacto
+      </a>
+
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="share-section">
+      <a 
+        href="https://wa.me/?text=Hola%2C%20te%20comparto%20mi%20tarjeta%20digital%20BS%20Card%" 
+        target="_blank" 
+        class="btn share">
+        <i class="fas fa-share-alt"></i> Compartir BS Card
+      </a>
+
+      <button class="btn qr" onclick="document.getElementById('qr-card').scrollIntoView({behavior: 'smooth'})">
+        <i class="fas fa-qrcode"></i> Ver QR
+      </button>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="catalog-section">
+      <h2>Equipos de Rehabilitación Física</h2>
+      <p>
+        Con la más alta tecnología y confiabilidad para llevar a cabo labores de recuperación de manera segura y profesional.
+      </p>
+      <a href="https://tlmandina.com.co/#catalog" download class="btn catalog">
+        <i class="fas fa-file-download"></i> Descargar Catálogo
+      </a>
+    </section>
+
+    <section class="social-section">
+    <h2>Síguenos y conoce más</h2>
+    <div class="social-buttons">
+      <a href="https://www.facebook.com/tlmandina" target="_blank" class="social-icon facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.instagram.com/tlmandina" target="_blank" class="social-icon instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://tlmandina.com.co" target="_blank" class="web-link">
+        https://tlmandina.com.co
+      </a>
+    </div>
+  </section>
+
+    <div class="divider"></div>
+    
+    <section class="map-section">
+    <h2>Ubicación</h2>
+    <div class="map-container">
+        <!-- Aquí va el iframe de Google Maps -->
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.522513702087!2d-74.04735362519544!3d4.67884969529609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a910265744f%3A0x8b8478d0d8f7ee9f!2sTLM%20Andina%20S.A.S.!5e0!3m2!1sen!2sco!4v1758157058075!5m2!1sen!2sco" 
+        width="100%" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    </section>
+
+    <div class="divider"></div>
+
+
+  <section id='qr-card'class="qr-card">
+    <div class="qr-header">
+      <img src="../resources/logo_TLM.png" alt="Logo de la empresa">
+      <h2>Ingrid Gonzales</h2>
+      <p>Asesora Comercial</p>
+    </div>
+
+    <div class="qr-body">
+      <img src="../resources/qr-code.png" alt="Código QR de contacto">
+      <p class="qr-instruction">
+        <i class="fas fa-camera"></i> ESCANEA CÓDIGO QR
+      </p>
+    </div>
+  </section>
+
+  </div>
+</body>
+</html>

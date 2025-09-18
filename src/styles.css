@@ -1,0 +1,254 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  background-image: radial-gradient(#420259 0.8px, transparent 0.8px);
+  background-size: 20px 20px;
+  margin: 0;
+  padding: 20px;
+}
+
+
+.card {
+  max-width: 500px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.header {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #420259;
+  background-image: radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+  color: #fff;
+  padding: 30px 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 0 10px #e0e0e0, 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.logo-container img {
+  max-width: 120px;
+  height: auto;
+  background-color: #fff;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.map-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.map-section h2 {
+  margin-bottom: 15px;
+  color: #420259;
+}
+
+.map-container iframe {
+  border-radius: 8px;
+}
+.logo-container {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.logo-container img {
+  max-width: 120px;
+  height: auto;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.header p {
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+.contact-section,
+.share-section {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn {
+  background-color: transparent;         /* Sin fondo */
+  color: #420259;                        /* Texto morado */
+  border: 2px solid #420259;            /* Borde morado opcional */
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.btn i {
+  font-size: 22px;                      /* Ícono más grande */
+  color: #420259;                       /* Ícono morado */
+}
+
+.btn:hover {
+  background-color: #420259;
+  color: #fff;
+}
+
+.btn:hover i {
+  color: #5e047a;
+  color: #fff;
+}
+
+
+.divider {
+  height: 3px;
+  background-color: #420259;
+  margin: 10px 0;
+}
+
+.catalog-section {
+  padding: 20px;
+  text-align: center;
+  background-color: #420259;
+  color: #fff;
+}
+
+.catalog-section h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #fff;
+}
+
+.catalog-section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.btn.catalog {
+  background-color: #fff;
+  color: #420259;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn.catalog:hover {
+  background-color: #8e1ab8;
+  color: #fff;
+}
+
+.qr-card {
+  max-width: 400px;
+  margin: 40px auto;
+  background-color: #fff;
+  border: 4px solid #420259;
+  border-radius: 40px 10px 40px 10px;
+  box-shadow: 0 0 0 10px #e0e0e0, 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  text-align: center;
+}
+.qr-header img {
+  max-width: 120px;
+  margin-bottom: 10px;
+  /* filter: brightness(0) invert(1); Si el logo es oscuro */
+}
+
+.qr-header h2 {
+  margin: 10px 0 5px;
+  font-size: 22px;
+  color: #420259;
+}
+
+.qr-header p {
+  font-size: 16px;
+  color: #333;
+}
+
+.qr-body img {
+  max-width: 220px;
+  height: auto;
+}
+
+.qr-instruction {
+  font-size: 16px;
+  color: #420259;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.social-section {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #f4f4f4;
+  border-radius: 16px;
+  margin-bottom: 40px;
+}
+
+.social-section h2 {
+  color: #420259;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #420259;
+  color: #420259;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  background-color: #420259;
+  color: #fff;
+}
+
+.web-link {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 2px solid #420259;
+  color: #420259;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.web-link:hover {
+  background-color: #420259;
+  color: #fff;
+}
